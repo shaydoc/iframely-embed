@@ -1,8 +1,6 @@
 import Vue from 'vue'
-import App from './App.vue'
+import CusomtElementWrapper from '@vue/web-component-wrapper';
+import IframelyEmbed from './components/IframelyEmbed/IframelyEmbed';
 
-Vue.config.productionTip = false
-
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+const IframelyEmbedWebComponent = CusomtElementWrapper(Vue, IframelyEmbed);
+window.customElements.define('iframely-embed', IframelyEmbedWebComponent)
