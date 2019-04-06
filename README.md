@@ -30,5 +30,12 @@ https://shaydoc.github.io/iframely-embed/dist/demo.html
 npm run build-web-component
 ```
 
+## Development
+```
+npm install
+
+npm run server
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
