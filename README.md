@@ -6,6 +6,19 @@ application. See https://iframely.com/
 ## Demo
 https://shaydoc.github.io/iframely-embed/dist/demo.html
 
+## Demo Code Example
+
+```
+<meta charset="utf-8">
+<title>iframely-embed demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="./iframely-embed.js"></script>
+
+<div style="height:50vh;width:50vw;margin:auto">
+    <iframely-embed></iframely-embed>
+</div>
+```
+
 ## Build the component
 ```
 npm run build-web-component
