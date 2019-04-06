@@ -1601,6 +1601,13 @@ function normalizeComponent (
   }
 }
 
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"553e40dc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/IframelyEmbed/IframelyEmbed.vue?vue&type=template&id=adb53146&shadow
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{domProps:{"innerHTML":_vm._s(_vm.html)}})}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/IframelyEmbed/IframelyEmbed.vue?vue&type=template&id=adb53146&shadow
+
 // EXTERNAL MODULE: ./node_modules/regenerator-runtime/runtime.js
 var runtime = __webpack_require__("96cf");
 
@@ -1646,11 +1653,11 @@ function _asyncToGenerator(fn) {
     });
   };
 }
-// CONCATENATED MODULE: ./src/components/IframelyEmbed/IframelyEmbed.js
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/eslint-loader??ref--13-0!./src/components/IframelyEmbed/IframelyEmbed.js?vue&type=script&lang=js&shadow
 
 
 // @vue/component
-/* harmony default export */ var IframelyEmbed = ({
+/* harmony default export */ var IframelyEmbedvue_type_script_lang_js_shadow = ({
   props: {
     url: {
       type: String,
@@ -1710,12 +1717,28 @@ function _asyncToGenerator(fn) {
 
   }
 });
-// CONCATENATED MODULE: ./src/main.js?shadow
+// CONCATENATED MODULE: ./src/components/IframelyEmbed/IframelyEmbed.js?vue&type=script&lang=js&shadow
+ /* harmony default export */ var IframelyEmbed_IframelyEmbedvue_type_script_lang_js_shadow = (IframelyEmbedvue_type_script_lang_js_shadow); 
+// CONCATENATED MODULE: ./src/components/IframelyEmbed/IframelyEmbed.vue?shadow
 
 
 
-var IframelyEmbedWebComponent = vue_wc_wrapper(external_Vue_default.a, IframelyEmbed);
-window.customElements.define('iframely-embed', IframelyEmbedWebComponent);
+
+
+/* normalize component */
+
+var component = normalizeComponent(
+  IframelyEmbed_IframelyEmbedvue_type_script_lang_js_shadow,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  ,true
+)
+
+/* harmony default export */ var IframelyEmbedshadow = (component.exports);
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-wc.js
 
 
@@ -1727,7 +1750,7 @@ window.customElements.define('iframely-embed', IframelyEmbedWebComponent);
 
 
 
-window.customElements.define('iframely-embed', vue_wc_wrapper(external_Vue_default.a, /* Cannot get final name for export "default" in "./src/main.js?shadow" (known exports: , known reexports: ) */ undefined))
+window.customElements.define('iframely-embed', vue_wc_wrapper(external_Vue_default.a, IframelyEmbedshadow))
 
 /***/ }),
 

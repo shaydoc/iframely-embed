@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-web-component": "vue-cli-service build --target wc --name iframely-embed ./src/main.js",
+    "build-web-component": "vue-cli-service build --target wc --name iframely-embed ./src/components/IframelyEmbed/IframelyEmbed.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

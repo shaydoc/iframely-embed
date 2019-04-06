@@ -3,29 +3,9 @@
 This is a web component wrapper of the iFramely Embed Library for rich media embeds for your 
 application. See https://iframely.com/
 
-## Project setup
+## Build the component
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
+npm run build-web-component
 ```
 
 ### Customize configuration
