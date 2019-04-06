@@ -6,7 +6,7 @@ application. See https://iframely.com/
 ## Demo
 https://shaydoc.github.io/iframely-embed/dist/demo.html
 
-## Demo Code Example
+## How to use
 
 ```
 <meta charset="utf-8">
@@ -15,7 +15,7 @@ https://shaydoc.github.io/iframely-embed/dist/demo.html
 <script src="./iframely-embed.js"></script>
 
 <div style="height:50vh;width:50vw;margin:auto">
-    <iframely-embed></iframely-embed>
+    <iframely-embed url="..." api-key="..."></iframely-embed>
 </div>
 ```
 
