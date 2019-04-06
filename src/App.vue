@@ -25,7 +25,7 @@ export default {
   },
   data() {
     return {
-      url: null,
+      url: "https://coub.com/view/1kur9x",
       embedUrl: "https://coub.com/view/1kur9x",
       showMediaFlag: true
     };
