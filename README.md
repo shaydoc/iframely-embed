@@ -34,7 +34,7 @@ npm run build-web-component
 ```
 npm install
 
-npm run server
+npm run serve
 ```
 
 ### Customize configuration
