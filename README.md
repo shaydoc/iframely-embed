@@ -1,7 +1,9 @@
-# iframely-embed
+# iframely-embed 
 
 This is a web component wrapper of the iFramely Embed Library for rich media embeds for your 
 application. See https://iframely.com/
+
+This is a #vuejs implementation built using the Vue CLI 3
 
 ## Building Web Components with Vue CLI
 https://cli.vuejs.org/guide/build-targets.html#web-component
