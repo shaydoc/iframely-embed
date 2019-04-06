@@ -1,8 +1,5 @@
 # iframely-embed
 
-This is a web component wrapper of the iFramely Embed Library for rich media embeds for your 
-application. See https://iframely.com/
-
 ## Project setup
 ```
 npm install
