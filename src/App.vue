@@ -12,6 +12,7 @@
       <div v-if="showMediaFlag">
         <iframely-embed :url="embedUrl" />
       </div>
+
     </div>
 </template>
 
